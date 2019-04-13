@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D6E7332E2261600300143356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E7332D2261600300143356 /* AppDelegate.swift */; };
-		D6E733302261600300143356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E7332F2261600300143356 /* ViewController.swift */; };
+		D6E733302261600300143356 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E7332F2261600300143356 /* RedViewController.swift */; };
 		D6E733332261600300143356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E733312261600300143356 /* Main.storyboard */; };
 		D6E733352261600500143356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E733342261600500143356 /* Assets.xcassets */; };
 		D6E733382261600500143356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E733362261600500143356 /* LaunchScreen.storyboard */; };
+		D6E73340226166D900143356 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E7333F226166D900143356 /* OrangeViewController.swift */; };
+		D6E733422261670900143356 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E733412261670900143356 /* YellowViewController.swift */; };
+		D6E733442261671F00143356 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E733432261671F00143356 /* GreenViewController.swift */; };
+		D6E733462261672C00143356 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E733452261672C00143356 /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6E7332A2261600300143356 /* RainbowTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E7332D2261600300143356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6E7332F2261600300143356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6E7332F2261600300143356 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		D6E733322261600300143356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6E733342261600500143356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E733372261600500143356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6E733392261600500143356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E7333F226166D900143356 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		D6E733412261670900143356 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		D6E733432261671F00143356 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		D6E733452261672C00143356 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				D6E7332D2261600300143356 /* AppDelegate.swift */,
-				D6E7332F2261600300143356 /* ViewController.swift */,
+				D6E7332F2261600300143356 /* RedViewController.swift */,
+				D6E7333F226166D900143356 /* OrangeViewController.swift */,
 				D6E733312261600300143356 /* Main.storyboard */,
+				D6E733412261670900143356 /* YellowViewController.swift */,
+				D6E733432261671F00143356 /* GreenViewController.swift */,
+				D6E733452261672C00143356 /* BlueViewController.swift */,
 				D6E733342261600500143356 /* Assets.xcassets */,
 				D6E733362261600500143356 /* LaunchScreen.storyboard */,
 				D6E733392261600500143356 /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E733302261600300143356 /* ViewController.swift in Sources */,
+				D6E733422261670900143356 /* YellowViewController.swift in Sources */,
+				D6E733302261600300143356 /* RedViewController.swift in Sources */,
 				D6E7332E2261600300143356 /* AppDelegate.swift in Sources */,
+				D6E73340226166D900143356 /* OrangeViewController.swift in Sources */,
+				D6E733462261672C00143356 /* BlueViewController.swift in Sources */,
+				D6E733442261671F00143356 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
